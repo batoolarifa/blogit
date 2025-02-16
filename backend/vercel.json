@@ -1,13 +1,11 @@
 {
   "version": 2,
-  "installCommand": "npm install --legacy-peer-deps",
-  "buildCommand": "npm run build",
-  "functions": {
-    "api/**/*.js": {
-      "runtime": "@vercel/node@20"
-    }
-  },
+  "buildCommand": "npm install --legacy-peer-deps",
+  "startCommand": "node src/index.js",
   "routes": [
-    { "src": "/(.*)", "dest": "/" }
-  ]
+    { "src": "/(.*)", "dest": "/src/index.js" }
+  ],
+  "env": {
+    "NODE_ENV": "production"
+  }
 }
