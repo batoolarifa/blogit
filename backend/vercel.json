@@ -10,7 +10,7 @@
     {
       "src": "/(.*)",
       "dest": "/src/index.js",
-      "methods": ["GET", "POST", "PATCH", "DELETE"]
+      "methods": ["GET", "POST", "PATCH", "DELETE","OPTIONS"]
     }
   ]
 }
