@@ -18,11 +18,10 @@
   
   "src": "/(.*)",
   
-  "dest": "src/index.js"
+  "dest": "./src/index.js"
   
   }  
 ]
   
   }
-
 

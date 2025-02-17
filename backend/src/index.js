@@ -20,3 +20,7 @@ connectDB()
     console.log('MongoDB connection failed !!!',error);
 })
 
+
+app.get("/",(req,res) => {
+    res.send("'Welcome to the API!, this is the backend for the blog app'");
+})
