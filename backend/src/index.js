@@ -6,7 +6,6 @@ import {app} from "./app.js";
 
 
 
-
 connectDB()
 .then(() => {
     app.on("error",(error) => {
