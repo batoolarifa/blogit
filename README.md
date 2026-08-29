@@ -746,7 +746,6 @@ sequenceDiagram
     Client-->>User: Updated UI
 ```
 
----
 
 # 18. Blog Creation Flow
 
@@ -777,7 +776,6 @@ The important architectural point is that the frontend does not decide whether t
 
 The backend remains responsible for authentication and authorization.
 
----
 
 # 19. Error / Failure Boundaries
 
@@ -811,7 +809,6 @@ flowchart TD
 
 This makes the failure boundaries explicit instead of representing only the successful path.
 
----
 
 # 20. API Architecture
 
@@ -899,7 +896,6 @@ The most valuable part of this project was not simply getting the CRUD operation
 | Social relationships   | Followers/following form a many-to-many relationship                            | Dedicated Followership model                                | Avoids tightly coupling the User document to the entire social graph |
 | Client state           | CRUD operations can leave UI state stale                                        | Redux Toolkit actions for set/add/update/delete             | Keeps state transitions explicit and predictable                     |
 
----
 
 # 22. Security Practices
 
@@ -1122,7 +1118,6 @@ User profile
    └── Following
 ```
 
----
 
 # 26. Engineering Trade-offs
 
@@ -1203,7 +1198,6 @@ User ↔ Followership ↔ User
 
 The project therefore became an exercise in designing relationships and boundaries rather than simply writing CRUD endpoints.
 
----
 
 # 29. Future Improvements
 
@@ -1325,7 +1319,6 @@ cd frontend
 npm install
 ```
 
----
 
 ## 3. Configure Environment Variables
 
@@ -1370,7 +1363,6 @@ The backend API should now be running on your configured local port, for example
 http://localhost:8000
 ```
 
----
 
 ## 5. Start the Frontend
 
