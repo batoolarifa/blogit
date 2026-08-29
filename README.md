@@ -1,7 +1,7 @@
 # Blogit 
 
 <p align="center">
-  <strong>> A production-deployed full-stack blogging platform built around secure authentication, blog and comment CRUD operations, pagination, user profiles, follow relationships, search, media uploads, and protected API workflows.</strong>
+  <strong> A production-deployed full-stack blogging platform built around secure authentication, blog and comment CRUD operations, pagination, user profiles, follow relationships, search, media uploads, and protected API workflows.</strong>
 </p>
 
 
